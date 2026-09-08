@@ -15,12 +15,16 @@ I created this repository to document my Python learning journey and improve my 
 
 ## Topics
 
+## Topics
+
 - Python basics
+- Variables and data types
+- Conditions (if/else)
+- Loops
 - Functions
-- Loops and conditions
-- Data structures
+- Lists, Tuples, Sets, and Dictionaries
 - String manipulation
-- Algorithms
+- Basic problem solving
 
 ## Security Journey
 

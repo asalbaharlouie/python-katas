@@ -21,6 +21,8 @@ cd python-katas
 
 # Run an exercise
 python3 exercise_name.py
+```
+Replace exercise_name.py with the name of the exercise you want to run.
 
 ## Goals
 

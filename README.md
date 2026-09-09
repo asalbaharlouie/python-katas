@@ -15,8 +15,6 @@ I created this repository to document my Python learning journey and improve my 
 
 ## Topics
 
-## Topics
-
 - Python basics
 - Variables and data types
 - Conditions (if/else)

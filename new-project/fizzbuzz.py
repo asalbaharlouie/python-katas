@@ -12,4 +12,5 @@ def fizzbuzz(nums):
 
     return res
 
+
 print(fizzbuzz([1, 3, 5, 7, 8, 10, 21, 32]))

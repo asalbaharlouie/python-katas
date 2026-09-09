@@ -6,6 +6,7 @@ def sign(num):
     else:
         return 0
 
+
 print(sign(-8))
 print(sign(6))
 print(sign(0))

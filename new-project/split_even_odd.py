@@ -7,6 +7,7 @@ def split_even_odd(numbers):
         else:
             odd_list.append(num)
 
-    return even_list, odd_list 
+    return even_list, odd_list
+
 
 print(split_even_odd([10, 32, 12, 87, 91, 10, 29, 54]))

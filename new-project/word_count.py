@@ -9,4 +9,5 @@ def word_count(sentence):
 
     return counts
 
+
 print(word_count("hi asal hi"))

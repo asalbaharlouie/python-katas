@@ -6,32 +6,31 @@ def is_palindrome(word):
         return True
     else:
         return False
-    # اینجا همچین چیزی هم میتونیم بنویسیم return word == reverse_str
 
 
 def test_is_palindrome_when_true():
-    assert is_palindrome("level") == True
+    assert is_palindrome("level")
 
 
 test_is_palindrome_when_true()
 
 
 def test_is_palindrome_when_false():
-    assert is_palindrome("hello") == False
+    assert is_palindrome("hello")
 
 
 test_is_palindrome_when_false()
 
 
 def test_is_palindrome_when_empty():
-    assert is_palindrome("") == True
+    assert is_palindrome("")
 
 
 test_is_palindrome_when_empty()
 
 
 def test_is_palindrome_when_has_only_one_char():
-    assert is_palindrome("h") == True
+    assert is_palindrome("h")
 
 
 print(is_palindrome("bahar"))

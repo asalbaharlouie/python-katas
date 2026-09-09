@@ -1,8 +1,7 @@
 def reverse_string(word):
-    reverse_str = ""  # رشته جدید این تو ریخته میشه
+    reverse_str = ""
     for char in word:
-        reverse_str = char + reverse_str  # هر حرف جدید میره اول صف، پس کلمه عکس میشه
-
+        reverse_str = char + reverse_str
     return reverse_str
 
 

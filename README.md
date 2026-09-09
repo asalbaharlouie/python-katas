@@ -6,6 +6,22 @@ This repository contains my Python practice exercises and coding katas.
 
 I created this repository to document my Python learning journey and improve my programming fundamentals through practice.
 
+## Quick Start
+
+- Python 3.14.4
+
+### Run an Exercise
+
+```bash
+# Clone the repository
+git clone https://github.com/asalbaharlouie/python-katas.git
+
+# Go to the project folder
+cd python-katas
+
+# Run an exercise
+python3 exercise_name.py
+
 ## Goals
 
 - Strengthen Python fundamentals

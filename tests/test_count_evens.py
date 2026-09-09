@@ -5,8 +5,10 @@ def count_evens(nums):
             count += 1
     return count
 
+
 def test_count_evens():
     assert count_evens([1, 2, 3, 4, 5, 6, 7]) == 3
+
 
 test_count_evens()
 

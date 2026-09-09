@@ -12,8 +12,18 @@ def fizzbuzz(nums):
 
     return res
 
+
 def test_fizzbuzz():
-    assert fizzbuzz([1, 2, 3, 4, 5, 9, 15]) == [1, 2, "Fizz", 4, "Buzz", "Fizz", "FizzBuzz"]
+    assert fizzbuzz([1, 2, 3, 4, 5, 9, 15]) == [
+        1,
+        2,
+        "Fizz",
+        4,
+        "Buzz",
+        "Fizz",
+        "FizzBuzz",
+    ]
+
 
 test_fizzbuzz()
 

@@ -6,18 +6,24 @@ def sign(num):
     else:
         return 0
 
+
 def test_sign_positive_number():
-    assert sign(12) == 1 
+    assert sign(12) == 1
+
 
 test_sign_positive_number()
+
 
 def test_sign_negative_number():
     assert sign(-10) == -1
 
+
 test_sign_negative_number()
+
 
 def test_sign_zero():
     assert sign(0) == 0
+
 
 test_sign_zero()
 

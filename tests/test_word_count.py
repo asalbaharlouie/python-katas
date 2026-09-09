@@ -9,8 +9,10 @@ def word_count(sentence):
 
     return counts
 
+
 def test_word_count():
-    assert word_count("hello world hello") == {'hello': 2, 'world': 1}
+    assert word_count("hello world hello") == {"hello": 2, "world": 1}
+
 
 test_word_count()
 

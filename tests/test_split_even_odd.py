@@ -7,25 +7,33 @@ def split_even_odd(numbers):
         else:
             odd_list.append(num)
 
-    return even_list, odd_list 
+    return even_list, odd_list
+
 
 def test_split_even_odd():
     assert split_even_odd([1, 2, 3, 4]) == ([2, 4], [1, 3])
 
+
 test_split_even_odd()
+
 
 def test_split_even_odd_when_even():
     assert split_even_odd([2, 4, 6]) == ([2, 4, 6], [])
 
+
 test_split_even_odd_when_even()
+
 
 def test_split_even_odd_when_odd():
     assert split_even_odd([5, 7]) == ([], [5, 7])
 
+
 test_split_even_odd_when_odd()
+
 
 def test_split_even_odd_when_empty():
     assert split_even_odd([]) == ([], [])
+
 
 test_split_even_odd_when_empty()
 
